@@ -1,0 +1,19 @@
+# Dataset configuration for defect detection
+# YOLO expects labels in: class_id cx cy w h (all normalized 0-1)
+
+# Path to the dataset root (can be absolute or relative to this file)
+path: ../data
+
+# Train/val/test image directories (relative to `path`)
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 3
+
+# Class names — update these to match your actual defect types
+names:
+  0: scratch
+  1: dent
+  2: crack

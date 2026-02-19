@@ -1,0 +1,9 @@
+# Path to the dataset root (can be absolute or relative to this file)
+path: ../pcb_data
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['missing hole']

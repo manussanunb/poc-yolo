@@ -29,7 +29,7 @@ data/images/
 data/labels/
 *.zip
 *.tar.gz
-
+pcb_data/
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
